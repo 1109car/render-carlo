@@ -1,0 +1,39 @@
+{
+  "name": "nodecarlos",
+  "version": "1.0.0",
+  "description": "ni idea",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1109car/nodejsn.git"
+  },
+  "author": "carlos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1109car/nodejsn/issues"
+  },
+  "homepage": "https://github.com/1109car/nodejsn#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "db-local": "^3.1.0",
+    "express": "^4.21.0",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.11.3",
+    "nodecarlos": "file:",
+    "nodemon": "^3.1.4"
+  },
+  "devDependencies": {
+    "standard": "17.1.2"
+  },
+  "eslintConfig": {
+    "extends": [
+      "standard"
+    ]
+  }
+}
